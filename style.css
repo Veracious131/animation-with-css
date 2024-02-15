@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow:hidden;
+}
+.sky img{
+    width: 100%;
+    height: 287px;
+}
+.image1 img{
+    width: 100%;
+    transform: translate(0,-290px);
+}
+.white-line{
+    background-color: #fff;
+    width: 100%;
+    height: 15px;
+    transform: translate(0,-295px);
+
+}
+.green-line{
+    background-color: rgba(13, 243, 13, 0.664);
+    width: 100%;
+    height: 12px;
+    transform: translate(0,-295px);
+
+}
+.black-line{
+    background-color: #383737;
+    width: 100%;
+    height: 65px;
+    transform: translate(0,-299px);
+    
+}
+.road img{
+    width: 100%;
+    height: 150px;
+    transform: translate(0,-295px);
+
+}
+.road2 img{
+    transform: translate(0,-299px);
+    height: 150px;
+    width: 100%;
+}
+.birds1{
+    position: absolute;
+    top: 0%;
+    width: 150px;
+    left: 225px;
+}
+.birds2{
+    position: absolute;
+    top:0%;
+    width: 150px;
+    left: 890px;
+}
+.man img{
+    transform: translate(1245px,-1230px);
+    width: 150px;
+    animation: man 5s linear infinite forwards;
+    
+}
+@keyframes man {
+    0%{
+        transform: translate(1245px,-1230px);
+    }
+    100%{
+        transform: translate(-70px,-1230px);
+    }
+}
+.woman img{
+    transform: translate(0px,-1380px);
+    width: 150px;
+    animation: woman 6s linear infinite forwards;
+    
+}
+@keyframes woman {
+    0%{
+        transform: translate(-70px,-1380px);
+    }
+    100%{
+        transform: translate(1300px,-1380px);
+    }
+}
+
+.airplane1 img{
+    transform: translate(960px,-990px);
+    width: 400px;
+    animation: saint 3s linear infinite forwards;
+}
+@keyframes saint {
+    0%{
+        transform: translate(1200px,-990px);
+    }
+    100%{
+        transform: translate(-400px,-990px);
+    }
+}
+.airplane2 img{
+    transform: translate(1150px,-1100px);
+    width: 200px;
+    animation: chopper 4s linear infinite forwards;
+}
+@keyframes chopper {
+    0%{
+        transform: translate(1300px,-1100px);
+    }
+    100%{
+        transform: translate(-400px,-1100px);
+    }
+}
+
+.car1 img{
+    transform: translate(0,-1190px);
+    /* width: 100px; */
+    animation: car1 3s linear infinite forwards;
+}
+@keyframes car1 {
+    0%{
+        transform: translate(-120px,-1190px);
+    }
+    100%{
+        transform: translate(1190px,-1190px);
+    }
+}
+.bicycle img{
+    transform: translate(0,-1515px);
+    width: 100px;
+    animation: bicycle 6s linear infinite forwards;
+}
+@keyframes bicycle {
+    0%{
+        transform: translate(-70px,-1515px);
+    }
+    100%{
+        transform: translate(1515px,-1515px);
+    }
+}
+.truck img{
+    transform: translate(0,-1355px);
+    width: 200px;
+    animation: truck 2s linear infinite forwards;
+}
+@keyframes truck {
+    0%{
+        transform: translate(-150px,-1355px);
+    }
+    100%{
+        transform: translate(1355px,-1355px);
+    }
+}
+.black-car img{
+    transform: translate(0, -1120px);
+    width: 200px;
+    animation: car2 2s linear infinite forwards;
+}
+@keyframes car2 {
+    0%{
+        transform: translate(-200px,-1120px);
+    }
+    100%{
+        transform: translate(1120px,-1120px);
+    }
+}
+.car3 img{
+    transform: translate(1200px,-1930px);
+    animation: car3 4s linear infinite forwards;
+}
+@keyframes car3 {
+    0%{
+        transform: translate(1300,-1930px);
+    }
+    100%{
+        transform: translate(-300px,-1930px);
+    }
+}
+.bike img{
+    transform: translate(1200px, -2070px);
+    animation: bike 3s linear infinite forwards;
+}
+@keyframes bike {
+    0%{
+        transform: translate(1300,-2070px);
+    }
+    100%{
+        transform: translate(-300px,-2070px);
+    }
+}
+.trailer img{
+    transform: translate(1200px, -2150px);
+    animation: trailer 4s linear infinite forwards;
+}
+@keyframes trailer {
+    0%{
+        transform: translate(1300,-2150px);
+    }
+    100%{
+        transform: translate(-300px,-2150px);
+    }
+}
+.one-way1{
+    position: absolute;
+    top:320px;
+    left: 215px;
+}
+.one-way2{
+    position: absolute;
+    top:320px;
+    left: 1085px;
+}
+.lamp1 img{
+    width: 130px;
+    position: absolute;
+    top: 310px;
+    left: 1085px;
+}
+.lamp2 img{
+    width: 130px;
+    position: absolute;
+    top: 310px;
+    left: 215px;
+}
+.lamp3 img{
+    width: 130px;
+    position: absolute;
+    top: 310px;
+    left: 800px;
+}
+.lamp4 img{
+    width: 130px;
+    position: absolute;
+    top: 310px;
+    left: 500px;
+}
